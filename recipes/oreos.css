@@ -1,0 +1,32 @@
+body {
+    background-color: #D2CB9C;
+}
+
+.Title2,
+.food {
+    font-family:Helvetica, Verdana, Arial;
+    font-size: 32px;
+    color: #B7331B; 
+} /*color and width to the heads */
+
+.food,           
+p.text2 {
+    color:black;
+    font-size: 18px;
+} /*color and width to the paragraphs */
+
+P.text2 {
+    margin-left: 40px;
+}
+
+img {
+    height: 400px;
+    width: 350px;
+}
+
+.list-ul,
+.list-ol {
+    color:#F1740B;
+    font-size:18px;
+    /*:marker:*/
+} 
