@@ -1,0 +1,33 @@
+body{ 
+    background-color: #CBCBCB ;
+}
+
+.title {
+    font-family:Helvetica, Verdana, Arial;
+    font-size: 32px; /*headers*/
+    color: #B7331B; 
+}
+
+.title2 {
+    font-family:Helvetica, Verdana, Arial;
+    color: rgb(223, 147, 85); /*for the ingredients headers*/
+    font-size: 20px;
+}
+
+.list-ul,
+.list-ol, /*size and family for al paragraphs*/
+.text {
+    font-size: 17px;
+    font-family:Helvetica, Verdana, Arial;
+}
+
+.text {
+    padding-left: 40px;
+}
+
+li {
+    padding-bottom: 30px; /*space for element <p> in the line 8*/
+}
+
+
+
