@@ -2,31 +2,32 @@
 .Title,
 .atxt {
     font-family:Helvetica, Verdana, Arial;
-    font-size: 40;
+    font-size: 40px;
     color: #B7331B;
-    text-align:center;
+    text-align:center; /*style for headers*/ 
 }
 
 .atxt {
-    font-size: 24;
+    font-size: 22px;
     color: rgb(0, 0, 0);
-    padding-right: 70px;
+    padding-right: 70px; /*style for paragraphs*/
 }
 
 ul {
     list-style-type:disc;
     color:rgba(243, 118, 8, 0.85);
     text-align: center; 
-    list-style-position: inside;/*  center the :marker: with the text*/
+    list-style-position: inside; /*center the :marker: with the text*/
 }
 
 li {
-    margin-bottom: 30px;
+    margin-bottom: 30px; 
 }
 
 .screen {
     margin-left: 575px;
 }
+
 
 
 
