@@ -1,0 +1,53 @@
+.Titles {
+    font-family:Helvetica, Verdana, Arial;
+    font-size: 32px;
+    margin: 0px 0px 0px 5px; /*The elements had a little  space between h2 and img*/
+    padding-bottom: 0px;
+} 
+
+.UL,
+.OL,
+p {
+    font-family:Helvetica, Verdana, Arial;
+    font-size: 20px; /*texts*/
+    margin: 0px auto;
+    color:black;
+}
+
+.text {
+    padding-top: 25px; /*it's for  breathe all the tags <li>*/
+}
+
+img {
+    width: 342px;
+    height: 248px;
+}
+
+.background.peanut {
+    height: auto;
+    width: 700px;        /*it is the div container's 2 and 4 in the page*/
+    background: linear-gradient(to bottom left, #ff9933 0%, #cc6600 100%);
+    padding: 5px 0px 0px 5px; /*separate a little the element's img of his container*/
+    color:#993300;
+}
+
+
+.background.chocolat { /*it is the container's 1,3,5 in the page*/
+    background: linear-gradient(to bottom, #993300 0%, #cc3300 100%);    
+    height: 120px;
+    color: orange; 
+    width: 700px;
+    padding-left: 5px;
+
+}
+
+.background.chocolat.last {
+    height: 500px; /*the space of the container and his elements with respect to the height it was very less*/
+}
+
+a {
+    display: inline-block;
+    padding: 120px 0px 0px 5px; /*the link now it have more space on his container <div>*/
+    color: yellow;
+}
+
