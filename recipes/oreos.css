@@ -16,17 +16,67 @@ p.text2 {
 } /*color and width to the paragraphs */
 
 P.text2 {
-    margin-left: 40px;
+    width: 500px; /*makes the size of the description text less*/
 }
 
 img {
-    height: 400px;
+    height: 415px;
     width: 350px;
+    border: 4mm ridge rgba(93, 34, 2, 0.925);
+    
 }
+
 
 .list-ul,
 .list-ol {
-    color:#F1740B;
+    color:#ffffffc7;
     font-size:18px;
     /*:marker:*/
 } 
+
+.text-img {
+    display: inline-block;
+    vertical-align: top; /*Is one Div and contained the Description and ingredients for put them in the img on the side right of it*/ 
+    background-color: hsl(19, 73%, 44%);
+    height: 415px;
+    border: 4mm double #ffffff;
+    margin-right: 100px;
+}
+
+h2.Title2,
+p.text2 {
+    margin: 0px 0px 10px 5px; /*I've adjust the margin's of the description elements*/
+}
+
+h1.Title2.h1 {
+    color:#ffffffc7; /*Add a little space between to the h3 and its container*/
+    padding-left: 10px; 
+}
+
+.head-style {
+    color:#ffffffc7;
+    margin-left: 140px; /*Add color and center the element h2 and h3 heads*/
+}
+
+.head-style.steps {   /*center the element header h3 "steps"*/
+    margin-left:100px;
+}
+
+.text-img2 {
+    background-color:hsl(19, 73%, 44%);
+    display: inline-block;
+    width:889px;                        
+    border: 4mm double #ffffff;     /* put style to the container who will contain  the h1(div)*/
+}
+
+
+.h1.text-img2 {
+    display: block; /*convert the h1 in a type block because it put in next of img element*/
+}
+
+a,
+.link {
+    display: block;
+    margin: auto auto 2px 10px; /*Adjust the element <a> in the last container div with is found bottom */
+    color: #ffffff;
+}
