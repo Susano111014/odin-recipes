@@ -1,33 +1,100 @@
-body{ 
+body { 
     background-color: #CBCBCB ;
+}
+
+h1.title.first {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 34px;
+}
+
+.container1,
+.container2 {
+    display: inline-block; 
+}
+
+.container1{
+    position: relative; /*eto eto e good e good, moving the container1 in everything said of the page*/
+    bottom:500px;
+    left: 600px;
+    bottom: 560px;
+}
+
+.container2 {
+    position: relative;
+    left: 390px;
+    top: 180px;
+}
+
+
+img,
+.boxes {
+    box-shadow: 10px -10px 30px 3px black ; 
+}
+
+
+.img-div  {
+    height: 600px; /*is the second sub div of the container 1 and it contain the elements img and headers*/
+    width: 400px;
+    
 }
 
 .title {
     font-family:Helvetica, Verdana, Arial;
     font-size: 32px; /*headers*/
-    color: #B7331B; 
+    color: #B7331B;
+
+}
+
+h2.title.tex-img {
+    margin: 0px 0px
 }
 
 .title2 {
     font-family:Helvetica, Verdana, Arial;
     color: rgb(223, 147, 85); /*for the ingredients headers*/
     font-size: 20px;
+    margin: 15px auto auto 25px;
+}
+
+.spans {
+    display: block;
+    padding: 0px  0px 0px 180px;
+}
+
+.ingre {
+    padding-left:125px ; /*head Ingredients*/
 }
 
 .list-ul,
-.list-ol, /*size and family for al paragraphs*/
+.list-ol, /*size and family for all paragraphs*/
 .text {
+    display: block;
     font-size: 17px;
     font-family:Helvetica, Verdana, Arial;
+    padding: 20px 20px 20px 20px;
+    margin-left:20px ;
 }
 
 .text {
-    padding-left: 40px;
+    padding-left: 30px;
+}
+
+p.text {
+    margin-top: 0px; /*the text of the Description*/
 }
 
 li {
     padding-bottom: 30px; /*space for element <p> in the line 8*/
 }
 
+.boxes {
+    background-color: grey; 
+    display: inline-block;
+}
 
-
+.boxes.tres {
+    margin-top:0px;
+    width:430px;  
+    height: 500px
+}
